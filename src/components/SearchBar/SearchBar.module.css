@@ -1,0 +1,63 @@
+.SearchBar {
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+    background-image: url('./assets/various-herbs-spices-wooden-spoons-background.jpg');
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.Filters {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+    width: 35%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px white solid;
+    color: white;
+    font-weight: bold;
+}
+
+.FilterOption {
+    color: burlywood;
+}
+
+.Inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 45%;
+    margin: 0 auto 1.5rem;
+}
+
+.InputItem {
+    width: 45%;
+    padding: .25rem;
+    border-radius: .5rem;
+    color: grey;
+    font-weight: bold;
+}
+
+.HighlightedInputItem {
+    width: 45%;
+    padding: .25rem;
+    border-radius: .5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.Button {
+    display: block;
+    margin: 0 auto;
+    background-color: burlywood;
+    color: #fff;
+    font-weight: bold;
+    border-color: burlywood;
+    width: 120px;
+    border-radius: 5px;
+}
